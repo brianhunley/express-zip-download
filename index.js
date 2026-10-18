@@ -31,7 +31,6 @@ app.get('/getzip', (req, res) => {
 app.use(zipEasy());
 app.get('/getzip2', (req, res) => {
     // console.log('router post zip');
-    console.log(req.body);
 
     //res.json({
     //   msg: "Yep, data receipt confirmed"
